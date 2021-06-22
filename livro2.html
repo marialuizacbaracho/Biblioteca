@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Biblioteca</title>
+</head>
+<body>
+
+<!--inicio menu-->
+<section id="nav-bar">
+  <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html"><img src="imagens/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="livros.html">Livros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+  </nav>
+</section>
+
+<!--fim menu-->
+  <!--fim banner-->
+
+<section id="descricao">
+  <div class="container">
+      <div class="col-md-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="livros.html">Livros</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Física</li>
+            </ol>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="imagens/livro2.jpg">
+        </div>
+          <div class="texto col-md-6">
+            <h1>Física</h1>
+            <p>Obra bastante completa, dá ênfase ao trabalho com os  conteúdos e ao rigor conceitual. Apresenta também bastante atividade para o aluno.</p>
+
+                  <div class="produtos-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                  </div>
+            <button type="submit" class="btn btn-success col-md-6" onclick="funcao1()">Reservar</button>
+
+              <p id="demo"></p>
+
+              <script>
+              function funcao1()
+              {
+              var x;
+              var r=confirm("Seu livro foi reservado!");
+              }
+              </script>
+          </div>
+        </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <!--Inicio rodapé-->
+  <section id="footer">
+    <img src="imagens/wave-large-reversed.png" class="footer-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-box">
+          <h1><b>BIBLIOTECA VIRTUAL</b></h1>
+          <p>Esse site foi criado com o objetivo de facilitar a busca dos livros, usando a pesquisa por títulos e a divisão por categorias.</p>
+        </div>  
+        <div class="col-md-4 footer-box">
+          <p><b>Nossos Contatos</b></p>
+          <p><i class="fa fa-map-marker"></i> Taubaté/SP.</p>
+
+          <p><i class="fa fa-phone"></i> +55 12 3655-9988</p>
+
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> biblioteca@gmail.com</p>
+
+        </div>   
+        <div class="col-md-4 footer-box">
+          <p><b>Alguma duvida ou sugestão? Deixe aqui</b></p>
+          <input type="email" class="form-control" placeholder="Seu email"><br>
+          <textarea type="email" class="form-control" placeholder="Escreva sua mensagem aqui" rows="3"></textarea>
+          
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>       
+      </div>
+      <hr>
+      <p class="copyright">Cadastre-se para ter acesso à todo nosso acervo</p>
+
+    </div>
+
+  </section>
+
+
+
+
+  <!--Fim rodapé-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
